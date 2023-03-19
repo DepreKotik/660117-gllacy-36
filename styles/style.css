@@ -1,0 +1,232 @@
+@font-face {
+  font-family: "Inter";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/inter-400.woff2")format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/inter-700.woff2")format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 900;
+  font-style: normal;
+  src: url("../fonts/inter-900.woff2")format("woff2");
+  font-display: swap;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  border: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  background-color: #FEAFC3;
+  color: #565C66;
+  padding: 0 100px;
+  margin: 0;
+}
+
+.cite-navigation-link {
+  text-decoration: none;
+  color: #2D3440;
+}
+
+.cite-navigation-list {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.user-navigation-list {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.header-phone {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #2D3440;
+  text-decoration: none;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 46px;
+  color: #2D3440;
+  margin: 0;
+}
+
+.intro-title {
+  font-size: 36px;
+  color: #2D3440;
+}
+
+.presents-box-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #2D3440;
+}
+
+.catalog-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2D3440;
+}
+
+.blog-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #2D3440;
+}
+
+.filters-block-title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #2D3440;
+}
+
+.intro-description {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.blog-description {
+  line-height: 20px;
+}
+
+.delivery-form-item {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #2D3440;
+}
+
+.delivery-form-input {
+  font-size: 16px;
+  line-height: 20px;
+  color: #B9B9B9;
+}
+
+.contacts-address,
+.contacts-phone-link {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2D3440;
+  text-decoration: none;
+}
+
+.time-description {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.presents-wrapper {
+  background-color: #FF7799;
+  border-radius: 16px;
+}
+
+.catalog-item {
+  background: #FCFCFC;
+  border-radius: 8px;
+}
+
+.advantages {
+  background-image: url("../images/svg/advantages-background.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.advantages-wrapper {
+  background-color: #FFFFFF;
+  border-radius: 16px;
+}
+
+.blog {
+  background-image: url("../images/background/blog-background.jpg");
+  background-repeat: no-repeat;
+  border-radius: 16px;
+}
+
+.subscription {
+  background-image: url("../images/svg/subscription-background.svg");
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  padding: 6px;
+}
+
+.subscription-wrapper {
+  background-color: #FFFFFF;
+  border-radius: 16px;
+}
+
+.delivery {
+  background-image: url("../images/background/delivery-background.jpg");
+  background-repeat: no-repeat;
+  border-radius: 16px;
+}
+
+.contacts {
+  background-image: url("../images/background/contacts-background.jpg");
+  background-repeat: no-repeat;
+  border-radius: 16px;
+}
+
+.footer-link {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #565C66;
+  text-decoration: none;
+}
+
+.footer-link-suppliers {
+  font-weight: 700;
+  color: #2D3440;
+}
+
+.footer-description {
+  font-size: 12px;
+  line-height: 16px;
+  color: #2D3440;
+}
+
+.footer-description-link {
+  color: #2D3440;
+}
