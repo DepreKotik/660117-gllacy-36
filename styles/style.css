@@ -367,7 +367,6 @@ body {
 
 .advantages {
   background-image: url("../images/svg/advantages-background.svg");
-  background-repeat: no-repeat;
   background-position: center;
   border-radius: 16px;
   padding: 24px;
